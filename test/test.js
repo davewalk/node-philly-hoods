@@ -1,4 +1,5 @@
 var test = require('tap').test,
+teddybear = require('teddybear'),
   hoods = require('../');
 
 test('find by name', function (t) {
@@ -24,6 +25,8 @@ test('find by coords', function (t) {
     t.equal(res.results.features[0].properties.name, 'Rittenhouse');
   });
 });
+
+teddybear(1000);
 
 test('find by coords outside of city', function (t) {
   t.plan(1);
