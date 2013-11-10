@@ -10,13 +10,13 @@ test('find by name', function (t) {
   });
 });
 
-test('find by name multiple results', function (t) {
-  t.plan(1);
+// test('find by name multiple results', function (t) {
+//   t.plan(1);
 
-  hoods.findByName('germantown', function (err, res) {
-    t.equal(res.results.features.length, 6);
-  });
-});
+//   hoods.findByName('germantown', function (err, res) {
+//     t.equal(res.results.features.length, 6);
+//   });
+// });
 
 test('find by coords', function (t) {
   t.plan(1);
@@ -25,8 +25,6 @@ test('find by coords', function (t) {
     t.equal(res.results.features[0].properties.name, 'Rittenhouse');
   });
 });
-
-teddybear(1000);
 
 test('find by coords outside of city', function (t) {
   t.plan(1);
