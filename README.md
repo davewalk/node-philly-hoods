@@ -2,6 +2,8 @@
 
 A wrapper for the [phillyhoods.net](http://phillyhoods.net) API.
 
+[![build status](https://secure.travis-ci.org/davewalk/node-philly-hoods.png)](http://travis-ci.org/davewalk/node-philly-hoods)
+
 ### Installation
 
 `npm install philly-hoods`
