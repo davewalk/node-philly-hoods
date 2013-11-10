@@ -1,5 +1,4 @@
 var test = require('tap').test,
-teddybear = require('teddybear'),
   hoods = require('../');
 
 test('find by name', function (t) {
@@ -9,14 +8,6 @@ test('find by name', function (t) {
     t.equal(res.results.features[0].properties.name, 'Bella Vista');
   });
 });
-
-// test('find by name multiple results', function (t) {
-//   t.plan(1);
-
-//   hoods.findByName('germantown', function (err, res) {
-//     t.equal(res.results.features.length, 6);
-//   });
-// });
 
 test('find by coords', function (t) {
   t.plan(1);
