@@ -1,0 +1,46 @@
+{
+  "name": "philly-hoods",
+  "version": "1.0.0",
+  "description": "An API wrapper for phillyhoods.net - a neighborhoods API for Philadelphia",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "example": "example.js"
+  },
+  "scripts": {
+    "test": "tap ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davewalk/node-philly-hoods.git"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "homepage": "https://github.com/davewalk/node-philly-hoods",
+  "keywords": [
+    "Philadelphia",
+    "Philly",
+    "neighborhood",
+    "API",
+    "wrapper",
+    "open",
+    "data"
+  ],
+  "author": {
+    "name": "Dave Walk",
+    "email": "daviddwalk@gmail.com",
+    "url": "http://davewalk.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davewalk/node-philly-hoods/issues",
+    "email": "daviddwalk@gmail.com"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  },
+  "devDependencies": {
+    "tap": "~0.4.4"
+  }
+}
